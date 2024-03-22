@@ -149,11 +149,15 @@ header > ul {
   padding: 74px 0;
 }
 
+#projetos h2 {
+  color: var(--azul-escuro);
+}
+
 #projetos ul {
   display: flex;
   gap: 31px;
   justify-content: center;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 .project-container {
