@@ -1,4 +1,5 @@
 :root {
+  --azul: #1840a9;
   --azul-escuro: #00255c;
   --azul-claro: #178aae;
   --verde-agua: #17ae93;
@@ -176,8 +177,10 @@ header > ul {
   background: rgb(0, 37, 92);
   background: linear-gradient(
     180deg,
-    rgba(0, 37, 92, 0) 0%,
-    rgba(0, 37, 92, 1) 100%
+    rgba(0, 37, 92, 0) 0.02%,
+    rgba(0, 37, 92, 0.84) 45.2%,
+    rgba(0, 37, 92, 0.96) 68.75%,
+    #00255c 99.98%
   );
 
   position: absolute;
@@ -195,4 +198,103 @@ header > ul {
   margin: 0 auto;
   width: 250px;
   text-align: justify;
+}
+
+#projetos a {
+  padding: 14px 206px;
+  background: linear-gradient(90deg, #1b90d2 0%, #17ae93 100%);
+  margin-top: 30px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border-radius: 10px;
+  filter: drop-shadow(-9px 8px 8px rgba(0, 0, 0, 0.25));
+}
+
+.container-hard-skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--azul-escuro);
+  color: white;
+  padding: 84px 0;
+}
+
+.container-list {
+  display: flex;
+  gap: 66px;
+}
+
+.container-list ul {
+  width: 497px;
+  height: 164px;
+  border-radius: 8px;
+  border: 1px solid #fff;
+}
+
+#tech-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  flex-direction: column;
+
+  padding-top: 10px;
+}
+
+#tech-container li {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  font-size: 1.25rem;
+  background-color: blue;
+  width: 220px;
+  height: 36px;
+  padding: 5px 20px;
+  border-radius: 10px 15px 15px 5px;
+  margin-left: -9px;
+}
+
+#stack-container {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  padding-top: 10px;
+}
+
+#stack-container li {
+  font-weight: 700;
+  font-size: 1.25rem;
+  background-color: blue;
+  width: 475px;
+  height: 36px;
+  padding: 5px 20px;
+  border-radius: 10px 15px 15px 5px;
+  margin-left: -9px;
+}
+
+#stack-container li:nth-child(1) {
+  background-color: var(--verde-agua);
+}
+
+#stack-container li:nth-child(2) {
+  background-color: var(--azul-claro);
+}
+
+#stack-container li:nth-child(3) {
+  background-color: var(--azul);
+}
+
+#tech-container li:nth-child(1),
+#tech-container li:nth-child(2) {
+  background-color: var(--verde-agua);
+}
+
+#tech-container li:nth-child(3),
+#tech-container li:nth-child(4) {
+  background-color: var(--azul-claro);
+}
+
+#tech-container li:nth-child(5) {
+  background-color: var(--azul);
 }
