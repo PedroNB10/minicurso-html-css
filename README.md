@@ -2,7 +2,7 @@
 
 ## | Oláaaa, seja bem vindo ao repositório do MINICURSO da byron.solutions
 
-### Para comçarmos, clone o repositório do git em sua máquina:
+### Para começarmos, clone o repositório do git em sua máquina:
 
 ```bash
 git clone https://github.com/PedroNB10/minicurso-html-css.git
