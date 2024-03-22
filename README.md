@@ -20,4 +20,22 @@ cd minicurso-html-css
 code .
 ```
 
+### Remova o arquivo .git para posterioremente criar seu repositório:
+
+```bash
+rm -rf .git
+```
+
+### Configure a branch principal como main:
+
+```bash
+git config --global init.defaultBranch main
+```
+
+### Inicialize seu repositório local:
+
+```bash
+git init
+```
+
 ### VOILÁ, agora bora botar a mão no código :D
