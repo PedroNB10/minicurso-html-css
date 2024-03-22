@@ -300,6 +300,8 @@ header > ul {
   background-color: var(--azul);
 }
 
+/* Seção Contato */
+
 #contato {
   display: flex;
   flex-direction: column;
@@ -330,6 +332,8 @@ header > ul {
 #contato ul img {
   width: 30px;
 }
+
+/* Footer */
 
 footer {
   opacity: 0.9;
