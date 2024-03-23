@@ -51,12 +51,12 @@ h1 {
   font-weight: 700;
 }
 
-header > ul > li {
+header ul li {
   text-transform: uppercase;
   cursor: pointer;
 }
 
-header > ul {
+header ul {
   font-weight: 400;
   display: flex;
   gap: 79px;
