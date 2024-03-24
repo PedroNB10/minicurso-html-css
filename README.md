@@ -28,16 +28,18 @@ git config --global init.defaultBranch main
 ```
 
 
+### Inicialize seu repositório local:
+
+```bash
+git init
+```
+
+
 ### Abra ela com o atalho do VScode:
 
 ```bash
 code .
 ```
 
-### Inicialize seu repositório local:
-
-```bash
-git init
-```
 
 ### VOILÁ, agora bora botar a mão no código :D
