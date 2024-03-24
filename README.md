@@ -14,11 +14,6 @@ git clone https://github.com/PedroNB10/minicurso-html-css.git
 cd minicurso-html-css
 ```
 
-### Abra ela com o atalho do VScode:
-
-```bash
-code .
-```
 
 ### Remova o arquivo .git para posterioremente criar seu repositório:
 
@@ -30,6 +25,13 @@ rm -rf .git
 
 ```bash
 git config --global init.defaultBranch main
+```
+
+
+### Abra ela com o atalho do VScode:
+
+```bash
+code .
 ```
 
 ### Inicialize seu repositório local:
