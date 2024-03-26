@@ -21,12 +21,6 @@ cd minicurso-html-css
 rm -rf .git
 ```
 
-### Configure a branch principal como main:
-
-```bash
-git config --global init.defaultBranch main
-```
-
 
 ### Inicialize seu repositório local:
 
